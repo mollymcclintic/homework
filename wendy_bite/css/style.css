@@ -8,22 +8,23 @@ a {
 }
 
 h1 {
-	font-weight: italic;
 	font-weight: bold;
 	font-family: georgia;
 	font-weight: normal;
+	font-style: italic;
 	text-align: center;
-	font-size: 42px;
+	font-size: 38px;
 	color: white;
 }
 strong {
 	text-align: center;
-	font-family: georgia;
+	font-family: helvetica;
 	font-weight: bold;
 	font-size: 20px;
 	color: white;
 
 }
+
 h2 {
 	font-weight: bold;
 	font-family: helvetica;
@@ -34,32 +35,38 @@ p {
 color: white;
 font-family: georgia;
 font-size: 18px;
+line-height: 1.5;
 
 }
 h3
 {
 	color: #BBBBBB;
-	font-family: helvetica;
-	font-size: 16px;
+	font-family: verdana;
+	font-size: 18px;
 }
+
 
 h4
 {
 	color:white;
-	font-family: helvetica;
-	font-size: 18px;
+	font-family: georgia;
+	font-size: 14px;
 	color:#BBBBBB;
 
 }
 
 li{
 	color:#BBBBBB;
+	font-family: georgia;
+	line-height: 1.5;
+
 }
 
 nav, a {
-	text-align:center;
-	font-weight: bold;
-	font-size: 18px;
-	color: #20b075;
-	font-family: helvetica;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #20b075;
+    font-family: helvetica;
+}
 }
