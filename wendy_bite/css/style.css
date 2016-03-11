@@ -1,0 +1,53 @@
+body{
+background-color: #444444;
+}
+a {
+	color: #61C497;
+	font-family: arial;
+}
+h1 {
+	font-style: italic;
+	font-style: bold;
+	font-family: georgia;
+	font-weight: normal;
+	text-align: center;
+	font-size: 48px;
+	color: white;
+}
+strong {
+	text-align: center;
+	font-family: georgia;
+	font-style: bold;
+	font-size: 20px;
+	color: white;
+
+}
+h2 {
+	font-style: bold;
+	font-family: sans-serif;
+	color: white;
+}
+
+p {
+color: white;
+font-family: georgia;
+}
+h3
+{
+	color: #BBBBBB;
+	font-family: arial;
+	font-size: 16px;
+}
+
+h4
+{
+	color:white;
+	font-family: arial;
+	font-size: 18px;
+	color:#BBBBBB;
+
+}
+
+li{
+	color:#BBBBBB;
+}
