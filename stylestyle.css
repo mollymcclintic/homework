@@ -1,14 +1,13 @@
 body {
-  background-color: #blue;
+  background-color:#F8F8FF;
 }
 h1 {
   font-family: georgia;
   text-align: center;
-  font-size: 50px;
-  color: #00FFFF;
+  color: #483D8B;
 }
 strong {
-  color: #7FFF00;
+  color: #483D8B;
   font-family: georgia;
 }
 
@@ -22,15 +21,16 @@ img {
 h2 {
   text-align: center;
   font-weight: bold;
-  color:#6A5ACD;
+  color:#778899;
 }
 
 h2, a {
   text-align: center;
   font-weight: bold;
-  color:#6A5ACD;
+  color:#778899;
 }
 
 p {
 text-align: center;
+font-family: georgia;
 }
