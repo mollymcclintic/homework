@@ -34,3 +34,19 @@ p {
 text-align: center;
 font-family: georgia;
 }
+
+.size {
+font-family: georgia;
+}
+
+.font-family {
+  font-family: georgia;
+}
+
+h5 {
+  font-family:georgia;
+  font-weight:normal;
+  font-size: 16px;
+}
+
+
