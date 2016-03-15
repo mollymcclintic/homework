@@ -1,0 +1,27 @@
+body {
+  background-color: #blue;
+}
+h1 {
+  font-family: georgia;
+  text-align: center;
+  font-size: 50px;
+  color: #00FFFF;
+}
+strong {
+  color: #7FFF00;
+  font-family: georgia;
+  text-align: center;
+}
+
+img {
+  width:300px;     
+  height:400px;    
+  overflow:hidden;
+  display: block;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color:#6A5ACD;
+}
