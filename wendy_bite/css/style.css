@@ -20,10 +20,13 @@ strong {
 	text-align: center;
 	font-family: helvetica;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
-
 }
+
+.bold {
+	font-weight: bold;
+	}
 
 h2 {
 	font-weight: bold;
@@ -44,14 +47,31 @@ h3
 	font-family: verdana;
 	font-size: 18px;
 }
-
-
-h4
-{
+h4 {
 	color:white;
-	font-family: georgia;
+	font-family: helvetica;
 	font-size: 14px;
 	color:#BBBBBB;
+}
+
+.size {
+	font-size: 18px;
+	color:#FFFFFF;
+	font-family: helvetica;
+}
+
+.font-family {
+	font-family:helvetica;
+	font-size: 14px;
+}
+
+h5
+{
+	color: white;
+	font-family: georgia;
+	font-size: 18px;
+	color:#BBBBBB;
+	font-weight: normal;
 
 }
 
@@ -59,8 +79,14 @@ li{
 	color:#BBBBBB;
 	font-family: georgia;
 	line-height: 1.5;
-
 }
+
+li,h4 {
+	font-size: 18px;
+	font-weight:normal;
+	font-family: georgia;
+}
+
 
 nav, a {
     text-align: center;
