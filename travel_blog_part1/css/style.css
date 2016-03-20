@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+
+}
+
 body {
   background-color: #FFFFFF;
   color: #000000;
@@ -12,8 +17,15 @@ h1 a {
   text-decoration: none;
   font-size: 48px;
 }
+
+h1 {
+  display: inline;
+}
 h2 {
   font-weight:normal;
+  display:inline;
+  color:#D2D2D2;
+  margin-left: 1em;
 }
 
 h2 a {
@@ -34,14 +46,23 @@ h4 a {
   float: right;
 }
 
+.more {
+  float: right;
+}
+
+
 nav a {
   color: #D2D2D2;
   font-size: 18px;
-  padding: 5px;
+  padding: 16px;
   font-weight: normal;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #B0B6BB;
+  color: white;
 }
 
-p::first-letter {
+section p::first-letter {
   float: left;
   font-size:68px;
   color:#D2D2D2;
@@ -51,15 +72,60 @@ p::first-letter {
 }
 
 img {
-  height: auto;
-  width: auto;
-  max-height: 300px;
-  max-width: 600px;
+  display: block;
+  max-width:100%;
+  margin: 10px 0;
+  clear:both;
 }
 
 p {
-  font-size: 14px;
-  line-height:1.5em;
+padding: 5px;
+font-size: 14px;
+line-height: 1.4;
 }
 
+section {
+  width: 60%;
+  float:left;
+  padding-right: 20px;
+}
 
+aside {
+  width:40%;
+  float:left;
+  color:#D2D2D2;
+}
+
+aside a {
+  text-decoration: none;
+  color:#F9D483;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+div h4 {
+  font-weight: 700;
+  color:#969696;
+}
+
+hr {
+  background-color:red;
+  color: red;
+}
+
+div.copy {
+ color:#D2D2D2;
+ font-size: 12px;
+ padding-top: 24px;
+}
+
+footer {
+ clear:both;
+}
+footer a {
+  text-decoration: none;
+  color: #F9D483;
+  font-size: 12px;
+  background-color: white;
+  padding: 0px;
+}
