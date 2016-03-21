@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -28,6 +27,12 @@ h2 {
   margin-left: 1em;
 }
 
+header h2 {
+  font-size: 16px;
+  color: #B0B6BB;
+}
+
+
 h2 a {
   text-decoration: none;
   color: black;
@@ -50,15 +55,24 @@ h4 a {
   float: right;
 }
 
-nav a {
+header nav {
+  clear: both;
+  width: 100%;
+}
+
+header nav a {
+  display: inline-block;
+  width: 16%;
+  …
   color: #D2D2D2;
-  font-size: 18px;
-  padding: 16px;
+  font-size: 14px;
+  padding: 10px;
   font-weight: normal;
   display: inline-block;
   text-decoration: none;
   background-color: #B0B6BB;
   color: white;
+  text-align: center;
 }
 
 section p::first-letter {
