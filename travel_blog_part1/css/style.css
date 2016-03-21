@@ -50,7 +50,6 @@ h4 a {
   float: right;
 }
 
-
 nav a {
   color: #D2D2D2;
   font-size: 18px;
@@ -117,6 +116,10 @@ div.copy {
  color:#D2D2D2;
  font-size: 12px;
  padding-top: 24px;
+}
+
+aside img {
+  display: block;
 }
 
 footer {
