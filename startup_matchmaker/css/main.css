@@ -3,7 +3,7 @@
   ========================================================================== */
 * {
   box-sizing: border-box;
-/*   border: 1px solid red; */
+  /* border: 1px solid red; */
 }
 
 .clearfix:after {
@@ -17,21 +17,22 @@
   ========================================================================== */
 
 /* 
-    SITE COLORS for your reference:
-    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
-
     White - #ffffff;
-    Light Grey -
-    Dark Grey -
-    Grey/Black(text color) -
-    Yellow -
-    Red -
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDBOD
+    Red - #FF0121
 */
 
 
 /* Global
    ================================================================ */
 body {
+  font-family:'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #080808;
+  text-decoration: none;
   /* Set some defaults! font-family, font-size, color, etc. */
 }
 
