@@ -3,7 +3,7 @@
   ========================================================================== */
 * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
+   border: 1px solid red; 
 }
 
 .clearfix:after {
@@ -46,30 +46,43 @@ a {
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
-
+.info {
+  float:right;
+  position: relative;
+  width: 33.3%;
+}
 
 /* Header
    ================================================================ */
-   h1 a {
-    display: inline-block;
-    float: left;
-    padding-left: 20px;
-    text-decoration: none;
-    font-family:'Merriweather', serif;
-   }
+h1 {
+  float: left;
+  padding-left: 20px;
+  font-family:'Merriweather', serif;
+}
 
-
+h1 a {
+  text-decoration: none;
+}
 
 /* Footer
    ================================================================ */
-
+footer p {
+  background-color:#3C3A3A;
+  color: #ffffff;
+}
 
 
 /* Navigation
    ================================================================ */
-   nav li a {
-    display: inline;
-    float: left;
+   nav {
+    float: right;
+   }
+
+   nav li {
+    display: inline-block;
+   }
+
+   nav a {
     padding-left: 20px;
     padding-top: 20px;
     text-decoration: none;
