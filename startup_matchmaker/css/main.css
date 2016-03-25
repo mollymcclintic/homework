@@ -32,8 +32,10 @@ body {
   font-family:'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #080808;
-  text-decoration: none;
   /* Set some defaults! font-family, font-size, color, etc. */
+}
+ p {
+  clear:both;
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
@@ -48,6 +50,13 @@ a {
 
 /* Header
    ================================================================ */
+   h1 a {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family:'Merriweather', serif;
+   }
 
 
 
@@ -58,6 +67,14 @@ a {
 
 /* Navigation
    ================================================================ */
+   nav li a {
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    }
 
 
 
