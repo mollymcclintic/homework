@@ -32,7 +32,16 @@ body {
   font-family:'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #080808;
+/*  background-image: url(coworking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
   /* Set some defaults! font-family, font-size, color, etc. */
+}
+
+.banner{
+  background-image: url(coworking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  p {
   clear:both;
@@ -50,32 +59,57 @@ a {
   float:right;
   position: relative;
   width: 33.3%;
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blurb {
+  float:right;
+  border: 1px;
+}
+
+.tagline {
+  text-align: center;
+  background-color: #DEECE6;
+  font-family: 'Merriweather', serif;
+  font-style:italic;
+  padding: 25px;
+  font-size: 30px;
 }
 
 /* Header
    ================================================================ */
+header {
+  background-color: #3C3A3A;}
+
 h1 {
   float: left;
   padding-left: 20px;
   font-family:'Merriweather', serif;
+  background-color:#3C3A3A;
 }
 
 h1 a {
   text-decoration: none;
+  background-color:#3C3A3A;
 }
 
 /* Footer
    ================================================================ */
-footer p {
+footer {
+  clear:both;
   background-color:#3C3A3A;
   color: #ffffff;
+  padding: 10px;
 }
+
 
 
 /* Navigation
    ================================================================ */
    nav {
     float: right;
+    background-color:#3C3A3A;
    }
 
    nav li {
@@ -93,3 +127,4 @@ footer p {
 
 /* Buttons
    ================================================================ */
+
