@@ -63,15 +63,22 @@ a {
   width: 33.3%;
   background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
+  padding: 30px 30px;
+
+
 }
 
 .blurb {
   float:right;
   border: 1px;
-  width: 300px;
-  -webkit-box-shadow: 10px 10px 171px 0px rgba(0,0,0,0);
-  -moz-box-shadow: 10px 10px 171px 0px rgba(0,0,0,0);
-  box-shadow: 10px 10px 171px 0px rgba(0,0,0,0);
+  width: 30%;
+  padding: 40px 20px;
+  background-color: rgba(255,255,255,.6);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.91);
+  padding: 40px 20px;
+  background-color: rgba(255,255,255,.6);
 }
 
 .tagline {
@@ -122,10 +129,13 @@ footer {
    nav {
     float: right;
     background-color:#3C3A3A;
+    margin: 0.67em;
    }
 
    nav li {
     display: inline-block;
+    margin-right: 2em;
+
    }
 
    nav a {
@@ -146,6 +156,11 @@ footer {
     font-size: 20px;
     margin: 0;
     }
+
+  .middle{
+    border-right: 1px solid rgb(200,200,200);
+    border-left: 1px solid rgb(200,200,200);
+  }
 
 
 /* Buttons
