@@ -47,11 +47,18 @@ body {
 }
  p {
   clear:both;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
+
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
   /* Set some default styles for anchors (color, text decoration) */
 }
 
@@ -62,7 +69,8 @@ a {
   position: relative;
   width: 33.3%;
   background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 300;
   padding: 30px 30px;
 
 
@@ -163,6 +171,24 @@ footer {
   }
 
 
+
+
 /* Buttons
    ================================================================ */
 
+  .button{
+    width: 100%;
+    background-color: rgb(230,230,230);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: calc(50%-30px);
+    text-align: center;
+  }
+
+  .red{
+    left: 40px;
+    margin-left: 70px;
+    background-color: #ff0000;
+    padding: 10px 30px;
+  }
