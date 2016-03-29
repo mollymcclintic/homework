@@ -170,9 +170,6 @@ footer {
     border-left: 1px solid rgb(200,200,200);
   }
 
-
-
-
 /* Buttons
    ================================================================ */
 
@@ -182,7 +179,6 @@ footer {
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: calc(50%-30px);
     text-align: center;
   }
 
@@ -191,4 +187,6 @@ footer {
     margin-left: 70px;
     background-color: #ff0000;
     padding: 10px 30px;
+    color: white;
+    position: center;
   }
