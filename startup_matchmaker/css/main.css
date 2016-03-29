@@ -57,7 +57,6 @@ a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     color: black;
-    text-transform: uppercase;
     text-align: center;
   /* Set some default styles for anchors (color, text decoration) */
 }
@@ -180,6 +179,9 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+ -webkit-box-shadow: -5px 14px 0px -8px rgba(0,0,0,0.15);
+-moz-box-shadow: -5px 14px 0px -8px rgba(0,0,0,0.15);
+box-shadow: -5px 14px 0px -8px rgba(0,0,0,0.15);
   }
 
   .red{
@@ -189,4 +191,5 @@ footer {
     padding: 10px 30px;
     color: white;
     position: center;
+  
   }
