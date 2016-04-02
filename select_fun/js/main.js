@@ -75,4 +75,9 @@ $('#question2').on('click', function(){
 	// b) Slide up #answer2
 	// c) Remove the active class from all list items
 	// d) Add the active class to #question1
-	
+	$('#question1').on('click', function(){
+		$('#answer1').slideDown(1000);
+		$('#answer2').slideUp(1000);
+		$('li').removeClass('active');
+		$('#question1').addClass('active');
+	})
