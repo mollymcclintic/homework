@@ -22,17 +22,29 @@ $('.awesome').css('color', '#B72B42');
 // 8.	Add a unique class to your CSS and add it to the articles in #row1
 $('#row1').addClass('unique');
 // 9.	Change the background color of all the articles
-$('article').css('backgroundColor','#6Ab56F');
+$('article').css('backgroundColor','#6AB56F');
 // 10.	Change the font color of all the articles in row 2
-
+$('#row2').css('font', '#5E4583');
 // 11.	Select any spans that are siblings of an h4 (using the .siblings() method) and hide them.
-
+$('h2').siblings('span').hide();
 // 12.	Clicking on #box7 should hide the span within the h2
-
+$('#box7').click(function (){
+  $('h2 span').hide();
+})
 // 13.	Add an h3 that says "Hello there!" to the beginning of #box12 (Hint: you'll need to look up the prepend() method)
-
+$('h3').click(function(){
+    $('#box12').prepend("Hello there!");
+});
 // 14.	SlideUp all the h1s on the page
+$('h1').slideUp();
 
 // 15. Add the selected class [already in the CSS] to the divs in #row4
-
+$('#row4 div').addClass('.selected');
 // 16.	Clicking reset should remove the selected class from everything and fade in the header element, the footer, and all elements with the class .box
+$('.reset').click(function(){
+  $('.selected').removeClass('.selected');
+  ('header').fadeIn('slow');
+  ('footer').fadeIn('slow');
+  ('.box').fadeIn('slow');
+
+})
