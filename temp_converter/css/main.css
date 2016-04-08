@@ -52,3 +52,11 @@ button {
   background-color: rgba(255, 0, 0, .6);
   padding: 10px;
 }
+
+.chilly {
+  background-color: #49597A;
+}
+
+.balmy {
+  background-color:#B72B43;
+}
