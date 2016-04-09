@@ -6,19 +6,22 @@ $('#fahrenheit_to_celsius').on('click', function (){
   //Get the value from #temperature and store in variable fahrenheit
   var fahrenheit = $('#temperature').val();
   //Convert that value to a number
-  fahrenheit = parseFloat(fahrenheit);
+  fahrenheit = parseFloat(fahrenheit).toFixed(2);
   //Convert to celsius and store in variable celsius
   var celsius = ((fahrenheit - 32) / 1.8); 
   //Display in #result
   $('#result').html(fahrenheit + " Fahrenheit is " + celsius + " Celsius.");
+  // Clear the value of #temperature
+  $('#temperature').val('');
 
   if (fahrenheit < 32) {
     $('body').addClass('chilly');
+    $('body').removeClass('balmy');
   } else {
     if (fahrenheit > 32) {
-      $('body').addClass('balmy');
-  }}
-});
+       $('body').addClass('balmy');
+   }}
+ });
 
 
 //When the user clicks the #celsius_to_fahrenheit button 
@@ -26,13 +29,22 @@ $('#celsius_to_fahrenheit').on('click', function (){
    //Get the value from #temperature and store in variable celsius
    var celsius = $('#temperature').val();
    //Convert that value to a number
-   celsius = parseFloat(celsius);
+   celsius = parseFloat(celsius).toFixed(2);
    //Convert to fahrenheit and store in variable fahrenheit
    var fahrenheit = (1.8 * celsius + 32);
    //Display in #result
    $('#result').html(celsius + " Celsius is " + fahrenheit + " Fahrenheit.");
+   // Clear the value of #temperature
+  $('#temperature').val('');
 
-
+  if (fahrenheit < 32) {
+    $('body').addClass('chilly');
+    $('body').removeClass('balmy');
+  } else {
+    if (fahrenheit > 32) {
+       $('body').addClass('balmy');
+   }}
+ });
 
 // function hotOrNot (temp) {
 //   if (temp > 75) {
