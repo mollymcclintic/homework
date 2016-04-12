@@ -10,7 +10,7 @@ $('#fahrenheit_to_celsius').on('click', function (){
   //Convert to celsius and store in variable celsius
   var celsius = ((fahrenheit - 32) / 1.8); 
   //Display in #result
-  $('#result').html(fahrenheit + " Fahrenheit is " + celsius + " Celsius.");
+  $('#result').html(fahrenheit + " Fahrenheit is " + celsius.toFixed(2) + " Celsius.");
   // Clear the value of #temperature
   $('#temperature').val('');
 
@@ -33,7 +33,7 @@ $('#celsius_to_fahrenheit').on('click', function (){
    //Convert to fahrenheit and store in variable fahrenheit
    var fahrenheit = (1.8 * celsius + 32);
    //Display in #result
-   $('#result').html(celsius + " Celsius is " + fahrenheit + " Fahrenheit.");
+   $('#result').html(celsius + " Celsius is " + fahrenheit.toFixed(2)+ " Fahrenheit.");
    // Clear the value of #temperature
   $('#temperature').val('');
 
