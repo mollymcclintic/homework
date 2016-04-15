@@ -1,4 +1,6 @@
 //Set up a variable [0] that is an array of all the names of the images 
+//Set up a variable [0] that is an array of all the number of votes 
+var votes = [0,0,0,0,0,0]
 var images = ["image_1.jpg", "image_2.jpg", "image_3.jpg", "image_4.jpg", "image_5.jpg", "image_6.jpg"]
 var currentPosition = 0;
 //Listen for the click on the "Next" button
@@ -8,6 +10,7 @@ $("#next").on('click', function(){
   currentPosition += 1;
   $("#image-to-vote-on").attr('src', './images/' + images[currentPosition] )
   supply();
+   thumb();
 });
 
 // "Previous" Button
@@ -15,6 +18,7 @@ $("#prev").on('click', function(){
   currentPosition -= 1;
   $("#image-to-vote-on").attr('src', './images/' + images[currentPosition] )
   supply();
+   thumb();
 });
 
 function supply(){
@@ -27,10 +31,25 @@ function supply(){
     $("#prev").removeAttr('disabled');
   }
 }
-//If the source of the image is "image6" then disable the "Next"
-//If the source of the image is "image1" then disable the "Previous"
-//If the source of the image is anything else, enable both buttons
 
-//Listen for the click on the "Previous" button
+//Listen for the click of the "upvote" button
+$('#upvote').on('click', function(){
+  votes[currentPosition] += 1;
+  thumb();
+});
+ 
+//Listen for the click of the "downvote" button
+$('#downvote').on('click', function(){
+  votes[currentPosition] -= 1;
+   thumb();
+});
+  //If the user clicks the thumbs up, add one vote
+  //Add one to the currentPosition
 
-//Update the source with the previous image in the array 
+//If the user clicks the thumbs down, remove one vote
+  //Subtract one from the currentPosition
+function thumb(){
+  $('#votes').html(votes[currentPosition])
+}
+
+
